@@ -1,0 +1,19 @@
+{
+  "name": "workspace-project",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "lib": "schematics @schematics/angular:library --name=lib --dry-run",
+    "debug": "node --inspect-brk ./node_modules/@angular-devkit/schematics-cli/bin/schematics.js @schematics/angular:library --name=lib --dry-run"
+  },
+  "private": true,
+  "dependencies": {
+    "rxjs": "5.5.7"
+  },
+  "devDependencies": {
+    "@angular-devkit/core": "file:./snapshots/@angular-devkit_core.tgz",
+    "@angular-devkit/schematics": "file:./snapshots/@angular-devkit_schematics.tgz",
+    "@angular-devkit/schematics-cli": "file:./snapshots/@angular-devkit_schematics-cli.tgz",
+    "@schematics/angular": "file:./snapshots/@schematics_angular.tgz"
+  }
+}
