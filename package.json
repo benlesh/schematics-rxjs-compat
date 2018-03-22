@@ -11,9 +11,9 @@
     "rxjs": "5.5.7"
   },
   "devDependencies": {
-    "@angular-devkit/core": "file:./snapshots/@angular-devkit_core.tgz",
-    "@angular-devkit/schematics": "file:./snapshots/@angular-devkit_schematics.tgz",
-    "@angular-devkit/schematics-cli": "file:./snapshots/@angular-devkit_schematics-cli.tgz",
-    "@schematics/angular": "file:./snapshots/@schematics_angular.tgz"
+    "@angular-devkit/core": "angular/angular-devkit-core-builds#1a9ef3e",
+    "@angular-devkit/schematics": "angular/angular-devkit-schematics-builds#1a9ef3e",
+    "@angular-devkit/schematics-cli": "angular/angular-devkit-schematics-cli-builds#1a9ef3e",
+    "@schematics/angular": "angular/schematics-angular-builds#1a9ef3e"
   }
 }
